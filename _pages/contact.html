@@ -4,7 +4,7 @@ title: 联系
 permalink: /contact/
 ---
 
-<form class="form" action="https://formspree.io/{{site.email}}" method="POST">
+<form class="form" action="" method="">
   <div class="form-item">
       <label class="contact-label" for="name">名字：</label>
       <input type="text" placeholder="你的名字" id="name" class="contact-input" name="name" tabindex="1" required/>
@@ -18,6 +18,6 @@ permalink: /contact/
     <textarea class="contact-textarea" placeholder="你的信息" class="contact-input" rows="4" id="message" name="message" tabindex="3" required></textarea>
   </div>
   <div class="form-item">
-    <button type="submit" value="Send" class="form-btn">发送</button>
+    <button type="submit" value="Send" class="form-btn" onClick="alert('逗你玩')">发送</button>
   </div>
 </form>
