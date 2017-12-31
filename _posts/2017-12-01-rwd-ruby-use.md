@@ -2,6 +2,8 @@
 layout: post
 title: windows下安装及使用Ruby时遇到的一些问题及解决方法
 date: 2017-12-01 00:00:00 +0800
+description: 安装Ruby出现的状况及解决方法
+img: ruby.png
 categories: rwd
 ---
 # 一、版本问题
@@ -55,19 +57,15 @@ C:\Users\Blackfood>gem -v
 [gem命令行详解]: https://www.jianshu.com/p/728184da1699
 
 # 三、其它
-## Ruby bundle
+## Ruby中国镜像
+### 为什么
+>RubyGems 一直以来在国内都非常难访问到，在本地你或许可以翻墙，当你要发布上线的时候，你就很难搞了！
+>这是一个完整 RubyGems 镜像，你可以用此代替官方版本，我们是完全基于 CDN 技术来实现，能确保几乎无延迟的同步。https://gems.ruby-china.org/
 
-### Bundle介绍：
-Rails 3中引入Bundle来管理项目中所有gem依赖，该命令只能在一个含有Gemfile的目录下执行。
-
-### Bundle命令详解：
-附，[Ruby bundle命令详解][Ruby bundle命令详解]
-
-[Ruby bundle命令详解]: http://blog.csdn.net/dazhi_100/article/details/41987347
-
-### 使用心得
-bundle update和bundle install的区别：
-
-bundle update会去相应的源检查Gemfile里gem的更新，然后对比Gemfile.lock文件，如果Gemfile里没有指定版本或是指定是>=的版本，就会去相应的源下载并安装新版本的gem，然后更新Gemfile.lock文件。
-
-bundle install会先检查Gemfile.lock文件以及里边的相关依赖，然后为本地系统安装Gemfile.lock文件中指定的版本，接着去检查Gemfile中有而Gemfile.lock中没有的，然后安装。bundle install好像不会去检查相关源中Gem版本的更新。
+### 如何使用
+```
+$ gem sources --add https://gems.ruby-china.org/ --remove https://rubygems.org/
+$ gem sources -l
+https://gems.ruby-china.org
+# 确保只有 gems.ruby-china.org
+```
