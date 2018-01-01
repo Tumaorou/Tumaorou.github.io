@@ -1047,3 +1047,17 @@ iframe{
 	width:800px;
 	height:600px;
 }
+
+.notes{
+	width:150px;
+	height:150px
+}
+
+img.notes {
+	transition: transform 0.3s;
+	margin:10px 0px;
+}
+
+.notes:hover {
+	transform: scale(1.1);
+}
