@@ -1055,7 +1055,7 @@ iframe{
 
 img.notes {
 	transition: transform 0.3s;
-	margin:10px 0px;
+	margin:10px;
 }
 
 .notes:hover {

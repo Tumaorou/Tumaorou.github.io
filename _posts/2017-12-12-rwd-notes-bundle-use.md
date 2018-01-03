@@ -6,7 +6,6 @@ description: Bundler通过跟踪和安装所需的gem版本，为Ruby项目提�
 img: bundler.png
 categories: rwd
 ---
-# Ruby bundle
 
 ## Bundle介绍：
 Rails 3中引入Bundle来管理项目中所有gem依赖，该命令只能在一个含有Gemfile的目录下执行。

@@ -3,7 +3,7 @@ layout: post
 title: 信息可视化D组期中专案
 date: 2017-10-10 17:49:20 +0300
 description: 从广东省财政支出的数据分析对人民生活的影响
-img: 期中专案.png
+img: middle.png
 categories: portfolio
 ---
 
