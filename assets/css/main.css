@@ -1061,3 +1061,8 @@ img.notes {
 .notes:hover {
 	transform: scale(1.1);
 }
+
+iframe{
+	width: 1024px;
+	height:768px;
+}
