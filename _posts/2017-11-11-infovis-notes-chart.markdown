@@ -2,7 +2,7 @@
 layout: post
 title: 要选哪种图？
 date: 2017-11-11 00:00:00 +0800
-description: 简述各类图表的作用及利弊
+description: 你还在想用什么样的图表表示自己的想法吗？这里简述了各类图表的利弊以及怎样使用
 img: chart.jpg
 categories: infovis-notes
 ---

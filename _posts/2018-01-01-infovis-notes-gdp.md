@@ -2,7 +2,8 @@
 layout: post
 title: GDP到底怎么算？
 date: 2017-01-01 00:00:00 +0800
-description: 计算各省和全国GDP的时候发现的问题
+description: 原来全国GDP≠各省GDP的相加
+img: gdp.png
 categories: infovis-notes
 ---
 

@@ -1,8 +1,8 @@
 ---
 layout: post
-title: windows下安装及使用Ruby时遇到的一些问题及解决方法
+title: windows下安装Ruby出现的问题
 date: 2017-12-01 00:00:00 +0800
-description: 安装Ruby出现的状况及解决方法
+description: 如何安装Ruby？MSYS2开发工具包是什么？网上的解答全都是站着说话不腰疼的放弃windows，实际上安装并没有他们所说的复杂
 img: ruby.png
 categories: rwd
 ---

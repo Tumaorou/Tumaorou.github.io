@@ -727,7 +727,7 @@ template {
 
 html {
   line-height: 1.5;
-  font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+  font-family: SimSun;
 }
 
 @media screen and (min-width: 500px) {
@@ -897,7 +897,7 @@ pre code {
   padding: 1rem;
 }
 .main-article .title-article, .main-article .page-title, .main-article .post-title, .page-article .title-article, .page-article .page-title, .page-article .post-title, .post .title-article, .post .page-title, .post .post-title {
-  font-family: 'Finger Paint', cursive;
+  font-family: SimHei;
   margin-bottom: 0;
   -webkit-transition: all .3s;
   transition: all .3s;
@@ -1096,7 +1096,7 @@ li.hanteng{
 		
 	}
 	.main-article .title-article {
-		font-size: 2rem;
+		font-size: 1.5rem;
 	}
 	.display {
 		display: flex;
@@ -1107,11 +1107,3 @@ li.hanteng{
 		 width: 50%;
 	}
 }
-
-/*.content {
-  position: relative;
-  max-width: 48rem;
-  margin-left: 22rem;
-  margin-right: 2rem;
-  padding: 4rem 1rem;
-}*/

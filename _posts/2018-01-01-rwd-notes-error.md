@@ -3,7 +3,7 @@ layout: post
 title: "+_+ 编码错误？仿佛回到Python"
 date: 2018-01-01 20:32:20 +0300
 img: gbk.jpg
-description: encodings="utf8"
+description: 为什么下载了一个外国人做的模版会出现GBK的编码错误，难道是我用的中国的电脑吗
 categories: rwd
 ---
 ## 错误如下：

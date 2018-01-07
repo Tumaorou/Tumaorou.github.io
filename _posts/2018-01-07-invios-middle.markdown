@@ -2,7 +2,7 @@
 layout: post
 title: 信息可视化D组期中专案
 date: 2017-10-10 17:49:20 +0300
-description: 从广东省财政支出的数据分析对人民生活的影响
+description: 用图表表现出了十年以来广东省政府在民众关注的领域的支出，分析政府的支出和人民的期望是否一致
 img: middle.png
 categories: infovis
 ---

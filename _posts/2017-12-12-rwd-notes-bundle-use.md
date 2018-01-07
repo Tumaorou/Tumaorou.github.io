@@ -2,7 +2,7 @@
 layout: post
 title: 用Bundler管理gem
 date: 2017-12-12 00:00:00 +0800
-description: Bundler通过跟踪和安装所需的gem版本，为Ruby项目提供一致的环境。
+description: 每用一个新的jekyll模版就要安装好多模块，实在是麻烦又浪费时间，有没有“一键安装”的方法呢？答案就是Bundler
 img: bundler.png
 categories: rwd
 ---
