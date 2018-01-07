@@ -2,15 +2,19 @@
 <html lang="en">
 {% include head.html %}
 <body>
+<div class="nodisplay">
 
   {% include sidebar.html %}
+
+</div>
+
 
   <main role="main">
     <div class="content">
       {{content}}
     </div>
   </main>
-
+  
 {% include analytics.html %}
 </body>
 </html>

@@ -2,6 +2,7 @@
 layout: default
 ---
 
+<div class="display">
 {% for post in paginator.posts %}
 <article class="main-article">
   <div class="wrap-content">
@@ -16,8 +17,11 @@ layout: default
   </div>
 </article>
 {% endfor %}
+</div>
 
-<div class="pagination">
+<li class="hanteng"> 中山大学南方学院 <a href = 'http://wcy.nfu.edu.cn/zh/教学教务/培养方案/网络与新媒体/'>网络与新媒体</a> 培养方案核心课程学期作品，由 <a href='http://wcy.nfu.edu.cn/zh/学院概况/师资队伍/廖汉腾/'>廖汉腾副教授</a> 指导</li>
+
+<div class="pagination nodisplay">
   {% if paginator.previous_page %}
     <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="previous"><i class="fa fa-chevron-left" aria-hidden="true"></i> 上一页</a>
   {% else %}

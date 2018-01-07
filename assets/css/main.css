@@ -1067,15 +1067,51 @@ iframe{
 	height:768px;
 }
 
-li.hanteng{
+li.school{
 	font-size:3px;
 	color:white;
 	list-style:none;
 }
 
-@media print {
-	a {
-		font-size:8pt;
-		color:black;
-	} 
+li.hanteng{
+	display:none;
 }
+
+@media print {
+	.nodisplay {
+		display:none;
+	}
+	.content {
+		max-width: 50rem;
+		margin-left: 0.2rem;
+	}
+	li.hanteng{
+		display:block;
+		font-size:4px;
+		color:black;
+		list-style:none;
+		position:fixed;
+		left:0;
+		bottom:0;
+		
+	}
+	.main-article .title-article {
+		font-size: 2rem;
+	}
+	.display {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+	.display > article{
+		 width: 50%;
+	}
+}
+
+/*.content {
+  position: relative;
+  max-width: 48rem;
+  margin-left: 22rem;
+  margin-right: 2rem;
+  padding: 4rem 1rem;
+}*/
