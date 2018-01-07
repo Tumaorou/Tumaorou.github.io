@@ -21,7 +21,7 @@ categories: rwd
 ---
 
 ## 解决方法
-以我的情况来看，问题出在目录名是中文
+以我的情况来看，问题出在计算机用户名是中文
 ```
 C:\Users\博熙\Desktop\Moon-gh-pages
 ```

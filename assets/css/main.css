@@ -751,12 +751,12 @@ img {
 }
 
 a {
-  color: #15F3A8;
+  color: #67b3e0;
   text-decoration: none;
 }
 a:hover {
   text-decoration: underline;
-  color: #1bdc9b;
+  color: #67b3e0eb;
 }
 
 blockquote {
@@ -846,8 +846,8 @@ pre code {
 }
 
 .sidebar-logo .logo {
-  font-family: 'Finger Paint', cursive;
-  color: #15F3A8;
+  font-family: SimHei;
+  color: #e4eae8;
   text-transform: uppercase;
   text-decoration: none;
   font-size: 3rem;
@@ -901,23 +901,23 @@ pre code {
   margin-bottom: 0;
   -webkit-transition: all .3s;
   transition: all .3s;
-  color: #15F3A8;
+  color: #555;
   font-size: 2.5rem;
   margin-top: 0.67rem;
 }
 .main-article .title-article a, .main-article .page-title a, .main-article .post-title a, .page-article .title-article a, .page-article .page-title a, .page-article .post-title a, .post .title-article a, .post .page-title a, .post .post-title a {
-  color: #15F3A8;
+  color: #555;
   text-decoration: none;
 }
 .main-article .post-date span, .main-article .page-date span, .page-article .post-date span, .page-article .page-date span, .post .post-date span, .post .page-date span {
   font-size: 0.8rem;
   text-transform: uppercase;
   font-family: monospace;
-  color: lightgreen;
+  color: #515151;
 }
 .main-article .more, .page-article .more, .post .more {
   text-decoration: none;
-  color: lightgreen;
+  color: #999;
 }
 
 img.post-image, img.page-img {
@@ -939,7 +939,7 @@ img.post-image, img.page-img {
   text-transform: uppercase;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.3);
   text-decoration: none;
-  background: #15F3A8;
+  background: #606060;
   -webkit-transition: all .35s;
   transition: all .35s;
 }
@@ -1065,4 +1065,17 @@ img.notes {
 iframe{
 	width: 1024px;
 	height:768px;
+}
+
+li.hanteng{
+	font-size:3px;
+	color:white;
+	list-style:none;
+}
+
+@media print {
+	a {
+		font-size:8pt;
+		color:black;
+	} 
 }
