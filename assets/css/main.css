@@ -1077,6 +1077,10 @@ li.hanteng{
 	display:none;
 }
 
+a#hotel{
+	display:none;
+}
+
 @media print {
 	.nodisplay {
 		display:none;
@@ -1094,6 +1098,9 @@ li.hanteng{
 		left:0;
 		bottom:0;
 		
+	}
+	a#hotel{
+		display:inline;
 	}
 	.main-article .title-article {
 		font-size: 1.5rem;

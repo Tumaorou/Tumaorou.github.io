@@ -6,9 +6,7 @@ img: gbk.jpg
 description: 为什么下载了一个外国人做的模版会出现GBK的编码错误，难道是我用的中国的电脑吗
 categories: rwd
 ---
-## 错误如下：
-![error]({{ site.baseurl }}/assets/img/error_1.png)
- 
+## 错误如下： 
 `Error:  incompatible character encodings: GBK and UTF-8`
 
 这啥？encoding？
@@ -21,9 +19,8 @@ categories: rwd
 ---
 
 ## 解决方法
-以我的情况来看，问题出在计算机用户名是中文
+哪里有中文呢，在我百思不得其解之时，突然想到
 ```
 C:\Users\博熙\Desktop\Moon-gh-pages
 ```
-“博熙”是中文，因此只需要把本地博客移至C盘即可，便摆脱了这个问题
-![error]({{ site.baseurl }}/assets/img/error_2.png)
+原来是文件目录里的用户名是中文的，于是把文件移到英文目录下问题就解决了
