@@ -21,6 +21,6 @@ categories: rwd
 ## 解决方法
 哪里有中文呢，在我百思不得其解之时，突然想到
 ```
-C:\Users\博熙\Desktop\Moon-gh-pages
+C:\Users\学生\Desktop\Tumaorou.github.io
 ```
 原来是文件目录里的用户名是中文的，于是把文件移到英文目录下问题就解决了
