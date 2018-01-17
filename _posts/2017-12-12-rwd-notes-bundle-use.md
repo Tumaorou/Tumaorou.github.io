@@ -16,7 +16,7 @@ Rails 3中引入Bundle来管理项目中所有gem依赖，该命令只能在一�
 [Ruby bundle命令详解]: http://blog.csdn.net/dazhi_100/article/details/41987347
 
 ## 问题
-bundle update和bundle install的区别：
+**bundle update和bundle install的区别：**
 
 bundle update会去相应的源检查Gemfile里gem的更新，然后对比Gemfile.lock文件，如果Gemfile里没有指定版本或是指定是>=的版本，就会去相应的源下载并安装新版本的gem，然后更新Gemfile.lock文件。
 
