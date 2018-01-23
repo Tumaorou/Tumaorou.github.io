@@ -31,8 +31,8 @@ categories: infovis
 我想知道，会不会一个地方的经济越发达，快捷酒店的数量就越多
 
 在搜索数据的时候，我提出了以下问题：
-· 快捷酒店的数量是否与经济发达程度有关？
-· 酒店评分高低是否与经济发达程度有关有关？
+- 快捷酒店的数量是否与经济发达程度有关？
+- 酒店评分高低是否与经济发达程度有关有关？
 
 <iframe src="https://public.tableau.com/views/_18800/GDP_2?:embed=y&:display_count=yes&publish=yes&publish=yes&publish=yes/Dashboard1?:showVizHome=no&:embed=true" height="600px" width="800px" scrolling="no" frameborder="0"></iframe>
 
