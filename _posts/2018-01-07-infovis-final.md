@@ -20,7 +20,7 @@ categories: infovis
 
 ### 六个快捷酒店在全国六大地区的占比
 
-圆饼图，从六大地区分别酒店数量占比看出各个品牌在不同地区的投入侧重
+圆饼图，从六大地区分别酒店数量占比看出各个品牌在不同地区的投入侧重。比如：速8酒店在西北地区的数量占33%，而在华东地区的数量只占14%，由此可见速8酒店在西北投入力度较大
 
 <iframe src="https://public.tableau.com/views/_18800/1?:embed=y&:display_count=yes&publish=yes&publish=yes/Dashboard1?:showVizHome=no&:embed=true" height="600px" width="800px" scrolling="no" frameborder="0"></iframe>
 
