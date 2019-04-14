@@ -1,0 +1,15 @@
+aside{
+	display: none;
+}
+
+.content{
+	margin:0 auto;
+}
+
+h1,h2,h3{
+	font-family:-apple-system-font,BlinkMacSystemFont,"Helvetica Neue","PingFang SC","Hiragino Sans GB","Microsoft YaHei UI","Microsoft YaHei",Arial,sans-serif;
+}
+
+p{
+	/*text-indent: 2em;*/
+}
