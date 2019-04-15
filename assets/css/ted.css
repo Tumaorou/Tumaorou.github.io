@@ -1,4 +1,8 @@
 /*页面*/
+body{
+	background-color:#f0f0f0;
+}
+
 aside{
 	display: none;
 }
@@ -28,7 +32,7 @@ blockquote{
 }
 
 .wrap-content{
-	padding: 1.5rem !important;
+	padding: 2.5rem !important;
 }
 
 hr{
