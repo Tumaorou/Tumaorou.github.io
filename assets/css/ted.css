@@ -65,3 +65,14 @@ blockquote{
 .page-title{
 	font-size:2rem !important;
 }
+
+@media screen and (min-width: 414px) {
+    body {
+        transform:scale(0.9);
+    }
+    .content{
+		padding-top:0;
+		padding-bottom:0;
+	}
+
+}
