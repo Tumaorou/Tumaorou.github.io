@@ -1,4 +1,8 @@
 /*页面*/
+html{
+	line-height:1.8571!important;
+}
+
 body{
 	background-color:#f0f0f0;
 	font-family:-apple-system-font,BlinkMacSystemFont,"Helvetica Neue","PingFang SC","Hiragino Sans GB","Microsoft YaHei UI","Microsoft YaHei",Arial,sans-serif !important;
@@ -13,8 +17,8 @@ aside{
 }
 
 h3{
-	margin-top:2.5em;
-	color: #7bbdbd;
+	/*margin-top:2.5em;*/
+	color: #67b3e0;
 }
 
 .page-content>p{
@@ -26,8 +30,8 @@ hr~p{
 }
 
 blockquote{
-	border-color:#7bbdbd;
-	margin:3em 0;
+	border-color:#67b3e0;
+	/*margin:3em 0;*/
 }
 
 .page-article{
