@@ -4,7 +4,7 @@ html{
 }
 
 body{
-	background-color:#f0f0f0;
+	background-color:#f8f8f2;
 	font-family:-apple-system-font,BlinkMacSystemFont,"Helvetica Neue","PingFang SC","Hiragino Sans GB","Microsoft YaHei UI","Microsoft YaHei",Arial,sans-serif !important;
 }
 
@@ -18,7 +18,7 @@ aside{
 
 h3{
 	/*margin-top:2.5em;*/
-	color: #67b3e0;
+	color: #87adcc;
 }
 
 .page-content>p{
@@ -30,8 +30,9 @@ hr~p{
 }
 
 blockquote{
-	border-color:#67b3e0;
-	/*margin:3em 0;*/
+	border-color:#87adcc;
+	margin-left:-1.4rem;
+	color:#6C7A89;
 }
 
 .page-article{
@@ -39,7 +40,7 @@ blockquote{
 }
 
 .wrap-content{
-	padding: 2.5rem !important;
+	padding: 2.2rem !important;
 }
 
 hr{
@@ -52,8 +53,20 @@ img{
 	margin-right: auto;
 }
 
+a{
+	color:#87adcc;
+}
+
+a:hover{
+	color:#FF645A;
+}
+
+a:visited{
+	color:#383838;
+}
+
 /*字体*/
-h1,h2,h3{
+h1,h2,h3,.page-article .page-date span{
 	font-family:-apple-system-font,BlinkMacSystemFont,"Helvetica Neue","PingFang SC","Hiragino Sans GB","Microsoft YaHei UI","Microsoft YaHei",Arial,sans-serif !important;
 }
 
@@ -77,6 +90,9 @@ blockquote{
     .content{
 		padding-top:0;
 		padding-bottom:0;
+	}
+	.wrap-content{
+	padding: 2.8rem !important;
 	}
 
 }
