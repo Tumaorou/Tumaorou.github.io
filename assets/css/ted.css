@@ -30,9 +30,9 @@ hr~p{
 }
 
 blockquote{
-	border-color:#87adcc;
 	margin-left:-1.4rem;
 	color:#6C7A89;
+	border-left:5px solid #87adcc;
 }
 
 .page-article{
@@ -55,6 +55,7 @@ img{
 
 a{
 	color:#87adcc;
+	text-decoration:underline;
 }
 
 a:hover{
@@ -66,6 +67,9 @@ a:visited{
 }
 
 /*字体*/
+h3{
+	font-size:1.2rem;
+}
 h1,h2,h3,.page-article .page-date span{
 	font-family:-apple-system-font,BlinkMacSystemFont,"Helvetica Neue","PingFang SC","Hiragino Sans GB","Microsoft YaHei UI","Microsoft YaHei",Arial,sans-serif !important;
 }
@@ -93,6 +97,12 @@ blockquote{
 	}
 	.wrap-content{
 	padding: 2.8rem !important;
+	}
+	blockquote{
+	border-left:8px solid #87adcc;
+	}
+	h3{
+	font-size:1.4rem;
 	}
 
 }
